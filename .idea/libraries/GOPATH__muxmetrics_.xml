@@ -1,0 +1,55 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;muxmetrics&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../gmail" />
+      <root url="file://$PROJECT_DIR$/../../../cloud.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../veri-thumbs-video-generator" />
+      <root url="file://$PROJECT_DIR$/../../../memoir-delete-user" />
+      <root url="file://$PROJECT_DIR$/../../../lt" />
+      <root url="file://$PROJECT_DIR$/../../../benchmark" />
+      <root url="file://$PROJECT_DIR$/../../../flamingo-wedding-exporter" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../muxmetrics-test" />
+      <root url="file://$PROJECT_DIR$/../../../memoir" />
+      <root url="file://$PROJECT_DIR$/../../../bk" />
+      <root url="file://$PROJECT_DIR$/../../../veri-image-server" />
+      <root url="file://$PROJECT_DIR$/../../../flamingo-thumbs-video-generator" />
+      <root url="file://$PROJECT_DIR$/../../../imaginary" />
+      <root url="file://$PROJECT_DIR$/../../../mwf" />
+      <root url="file://$PROJECT_DIR$/../../../signal" />
+      <root url="file://$PROJECT_DIR$/../../../flamingo-image-server" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../veri" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../gmail" />
+      <root url="file://$PROJECT_DIR$/../../../cloud.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../veri-thumbs-video-generator" />
+      <root url="file://$PROJECT_DIR$/../../../memoir-delete-user" />
+      <root url="file://$PROJECT_DIR$/../../../lt" />
+      <root url="file://$PROJECT_DIR$/../../../benchmark" />
+      <root url="file://$PROJECT_DIR$/../../../flamingo-wedding-exporter" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../muxmetrics-test" />
+      <root url="file://$PROJECT_DIR$/../../../memoir" />
+      <root url="file://$PROJECT_DIR$/../../../bk" />
+      <root url="file://$PROJECT_DIR$/../../../veri-image-server" />
+      <root url="file://$PROJECT_DIR$/../../../flamingo-thumbs-video-generator" />
+      <root url="file://$PROJECT_DIR$/../../../imaginary" />
+      <root url="file://$PROJECT_DIR$/../../../mwf" />
+      <root url="file://$PROJECT_DIR$/../../../signal" />
+      <root url="file://$PROJECT_DIR$/../../../flamingo-image-server" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../veri" />
+      <root url="file://$PROJECT_DIR$/../../../google.golang.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
