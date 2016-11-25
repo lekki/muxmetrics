@@ -146,10 +146,9 @@ func (mmh *MuxMetricsHandler) initCloudWatchSender() {
 		if len(matchCfgName) > 0 {
 
 			metricsData[1].Dimensions = append(metricsData[1].Dimensions, &cloudwatch.Dimension{
-				{
-					Name:  aws.String("Group"),
-					Value: aws.String(matchCfgName),
-				}})
+				Name:  aws.String("Group"),
+				Value: aws.String(matchCfgName)})
+
 		}
 
 		params := &cloudwatch.PutMetricDataInput{
