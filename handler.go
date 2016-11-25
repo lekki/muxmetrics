@@ -131,7 +131,9 @@ func (mmh *MuxMetricsHandler) initCloudWatchSender() {
 					break
 				}
 			}
-			matchCfgName = cfg.Name
+			if match {
+				matchCfgName = cfg.Name
+			}
 
 		}
 
