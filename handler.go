@@ -66,11 +66,7 @@ func (mmh *MuxMetricsHandler) initCloudWatchSender() {
 					Dimensions: []*cloudwatch.Dimension{
 						{
 							Name:  aws.String("Path"),
-							Value: aws.String(metric.Path),
-						},
-						{
-							Name:  aws.String("Method"),
-							Value: aws.String(metric.Method),
+							Value: aws.String(metric.Method+": "+metric.Path),
 						},
 					},
 					Timestamp: aws.Time(metric.When),
