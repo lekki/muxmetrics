@@ -145,10 +145,19 @@ func (mmh *MuxMetricsHandler) initCloudWatchSender() {
 
 		if len(matchCfgName) > 0 {
 
-			metricsData[1].Dimensions = append(metricsData[1].Dimensions, &cloudwatch.Dimension{
-				Name:  aws.String("Group"),
-				Value: aws.String(matchCfgName)})
+			metricsDatum := &cloudwatch.MetricDatum{MetricName: aws.String("Latency per Group"),
+				Timestamp: aws.Time(metric.When),
+				Unit:      aws.String("Milliseconds"),
+				Value:     aws.Float64(float64(latency)),
+				Dimensions: []*cloudwatch.Dimension{
+					{
+						Name:  aws.String("Group"),
+						Value: aws.String(matchCfgName),
+					},
+				},
+			}
 
+			metricsData = append(metricsData, metricsDatum)
 		}
 
 		params := &cloudwatch.PutMetricDataInput{
